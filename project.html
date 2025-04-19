@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects</title><link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; transition: background 0.3s, color 0.3s; }
+    body.light { background: #fff; color: #000; }
+    body.dark { background: #121212; color: #fff; }
+    header {
+      position: sticky; top: 0;
+      background: rgba(0,0,0,0.6);
+      color: white; padding: 1rem 2rem;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .hero {
+      display: grid; place-items: center; height: 100vh;
+      background: linear-gradient(to right, #ff3838bb, #121212, #000);
+      text-align: center; color: white; padding: 2rem;
+    }
+    .hero h1 {
+      font-size: 3rem; animation: fadeIn 1.2s ease-in;
+    }
+    .hero p {
+      font-size: 1.2rem; margin-top: 1rem; animation: fadeIn 1.2s ease-in
+    }
+    .cta-btn {
+      margin-top: 2rem; padding: 0.8rem 2rem;
+      background: #ff5e57; border: none; color: white;
+      font-weight: bold; cursor: pointer;
+      border-radius: 8px; transition: background 0.3s;
+    }
+    .cta-btn:hover { background: #ff3e36; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .box{
+        width: 80%;
+        height: 200px;
+        background-color: #a8a8a8;
+        margin: 1rem;
+        padding: 0;
+        border: 2px solid red ;
+        border-radius: 10px;
+        justify-content: center;
+        display: ;
+        
+    }
+    .toggle-theme {
+      cursor: pointer; background: transparent;
+      border: 2px solid white; padding: 0.5rem 1rem;
+      border-radius: 5px; color: white;
+    }
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body class="light">
+  <header>
+    <div>👨 My Works</div>
+    <button class="toggle-theme" onclick="toggleTheme()">🌗</button>
+  </header>
+
+  <section class="hero" style="background-color: #000;">
+    <div class="box">
+      <h1>PLAY SNAKES GAME</h1>
+      <p>I build responsive websites with 3d GAME UI/UX. play and enjoy</p>
+      <button class="cta-btn" onclick="location.href='snakes.html'">View Projects</button>
+    </div>
+
+    <div class="box">
+      <h1>MORDERN PROTFOLIO.</h1>
+      <p>I build responsive Protfolio used in HTML AND CSS only, Saw and enjoy !.....</p>
+      <button class="cta-btn" onclick="location.href='../Protfolio/intex.html'">View Protfolio</button>
+    </div>
+
+    <div class="box">
+      <h1> SIMPLE CHATBOT</h1>
+      <p>I build responsive websites and Ai morden UI/UX design. Chat with your girlfriend.</p>
+      <button class="cta-btn" onclick="location.href='CHATBOT'">CHAT</button>
+    </div>
+
+    <footer style="border-top: 0.6px solid red; background: #000000ec; color: whitesmoke; 
+    justify-content: center;  margin: 1px; padding:3px ; display: flex; " >
+    <p>@copyright 2025 yourname. All rights Reserved.</p>
+    <!--Social Media Icons-->
+
+    <div class="social-icon">
+      <a href="https://www.linkedin.com/notifications/?filter=all"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+      <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1"><i class="fa-brands fa-instagram"></i></a>
+  </div>
+  </footer>
+
+  </section>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark');
+      document.body.classList.toggle('light');
+    }
+  </script>
+</body>
+</html>

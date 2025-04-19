@@ -1,0 +1,139 @@
+@media (max-width: 999px) and (min-width: 100px) {
+  .home {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .intro h3 {
+    font-size: 2.5rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .profile-pic {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .profile-pic img {
+    width: 250px;
+    height: 250px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .skills .skill {
+    width: 90%;
+    padding: 0;
+  }
+
+  .social-icon a {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+  }
+}
+@media (max-width: 500px) and (min-width: 100px) {
+    .home {
+      flex-direction: column;
+      gap: 3rem;
+      padding: 30px 20px;
+      text-align: center;
+    }
+  
+    .intro h3 {
+      font-size: 2.5rem;
+    }
+  
+    .intro p {
+      font-size: 1rem;
+    }
+  
+    .profile-pic {
+      width: 100%;
+      margin-top: 0;
+    }
+  
+    .profile-pic img {
+      width: 250px;
+      height: 250px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    .skills .skill {
+      width: 90%;
+      padding: 0;
+    }
+  
+    .social-icon a {
+      width: 3rem;
+      height: 3rem;
+      font-size: 1.5rem;
+      margin: 1rem 1rem;
+    }
+  }
+  @media (max-width: 800px) and (min-width: 600px) {
+    .home {
+      flex-direction: column;
+      gap: 3rem;
+      padding: 30px 20px;
+      text-align: center;
+    }
+  
+    .intro h3 {
+      font-size: 2.5rem;
+    }
+  
+    .intro p {
+      font-size: 1rem;
+    }
+  
+    .profile-pic {
+      width: 100%;
+      margin-top: 0;
+    }
+  
+    .profile-pic img {
+      width: 250px;
+      height: 250px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    .skills .skill {
+      width: 90%;
+      padding: 0;
+    }
+  
+    .social-icon a {
+      width: 3rem;
+      height: 3rem;
+      font-size: 1.5rem;
+      margin: 1rem 1rem;
+    }
+  }
+  
